@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6FF5722"
+    android:orientation="vertical"
+    tools:context=".Agregar">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="50dp"
+        android:text="Nombre de la tarea"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edTxtNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:ems="10"
+        android:hint="Ingrese el nombre:"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFFFF"
+        android:textColorHint="#FFFFFFFF"
+        android:textColorLink="#FFFFFFFF" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:text="Materia"
+        android:textColor="#FFFFFFFF"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edTxtMat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:ems="10"
+        android:hint="Ingrese la materia:"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFFFF"
+        android:textColorHighlight="#FFFFFFFF"
+        android:textColorHint="#FFFFFFFF" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:text="Descripción"
+        android:textColor="#FFFFFFFF"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edTxtDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:ems="10"
+        android:hint="Ingrese la descripción:"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFFFF"
+        android:textColorHint="#FFFFFFFF" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:text="Fecha"
+        android:textColor="#FFFFFFFF"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edTxtFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:ems="10"
+        android:hint="Ingrese la fecha de entrega:"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFFFF"
+        android:textColorHint="#FFFFFFFF" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:text="Hora de entrega"
+        android:textColor="#FFFFFFFF"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edTxtHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:ems="10"
+        android:hint="Ingrese la hora limite:"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFFFF"
+        android:textColorHint="#FFFFFFFF" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:background="#FFFFFF"
+        android:text="Guardar"
+        android:textColor="#F6FF5722"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:background="#FFFFFF"
+        android:text="Cancelar"
+        android:textColor="#F6FF5722"
+        android:textSize="24sp" />
+</LinearLayout>
